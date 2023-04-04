@@ -1,0 +1,51 @@
+@import '../helpers/_pxToRem';
+@import "fonts";
+@import '../_variables.scss';
+
+.main-section {
+    text-align: center;
+    text-transform: uppercase;
+    hyphens: auto;
+    font-family: $headingTitle;
+    font-weight: 500;
+}
+
+.main-section__image{
+    margin: 0 auto;
+}
+
+.main-section__title {
+    font-weight: 900;
+    font-size: pxToRem(72px);
+    line-height: pxToRem(70px);
+
+    margin-top: pxToRem(39.46px);
+    margin-bottom: pxToRem(9px);
+}
+
+.main-section__title-subscr {
+    font-family: $headindSecondary;
+    font-size: pxToRem(24px);
+    line-height: pxToRem(36px);
+    letter-spacing: 0.35em;
+
+    margin-bottom: pxToRem(30px);
+}
+
+.main-section__let {
+    font-size: pxToRem(26px);
+    line-height: pxToRem(41px);
+    text-align: left;
+
+    margin-bottom: pxToRem(12px);
+}
+
+.main-section__description {
+    font-family: $headindSecondary;
+    font-size: pxToRem(18px);
+    line-height: pxToRem(28px);
+    letter-spacing: 0.075em;
+    text-align: left;
+
+    margin-bottom: pxToRem(47px);
+}

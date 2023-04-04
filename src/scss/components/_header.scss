@@ -1,0 +1,29 @@
+@import '../_variables.scss';
+@import "../helpers/_pxToRem";
+ header {
+     padding: pxToRem(25px);
+     font-weight: 700;
+     font-size: pxToRem(36px);
+     line-height: pxToRem(40px);
+     text-transform: uppercase;
+     color: $simpleWhite;
+ }
+
+ .header-wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .header-menu__button {
+     display: flex;
+     flex-direction: column;
+     gap: pxToRem(4.64px);
+
+     span {
+         width: pxToRem(51.07px);
+         height: pxToRem(5.57px);
+         border-radius: pxToRem(22px);
+         background-color: $simpleWhite;
+     }
+ }

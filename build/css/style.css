@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 @font-face {
   font-family: Comfortaa;
   font-display: swap;
@@ -7,7 +6,6 @@
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Comfortaa;
   font-display: swap;
@@ -15,7 +13,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Comfortaa;
   font-display: swap;
@@ -23,7 +20,6 @@
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Comfortaa;
   font-display: swap;
@@ -31,7 +27,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -39,7 +34,6 @@
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -47,7 +41,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Comfortaa;
   font-display: swap;
@@ -55,7 +48,6 @@
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -63,7 +55,6 @@
   font-weight: 200;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -71,7 +62,6 @@
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -79,7 +69,6 @@
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -87,7 +76,6 @@
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -95,7 +83,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -103,7 +90,6 @@
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -111,7 +97,6 @@
   font-weight: 100;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -119,7 +104,6 @@
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -127,7 +111,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -135,7 +118,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -143,7 +125,6 @@
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -151,7 +132,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -159,7 +139,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -167,7 +146,6 @@
   font-weight: 200;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -175,7 +153,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -183,7 +160,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -191,7 +167,6 @@
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -199,7 +174,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -207,7 +181,6 @@
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -215,7 +188,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -223,7 +195,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -231,7 +202,6 @@
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -239,7 +209,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -247,7 +216,6 @@
   font-weight: 100;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -255,7 +223,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -263,7 +230,6 @@
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -271,7 +237,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -279,7 +244,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -287,7 +251,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -295,7 +258,6 @@
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -303,7 +265,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -311,7 +272,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -319,7 +279,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -327,7 +286,6 @@
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -335,7 +293,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -343,7 +300,6 @@
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -351,7 +307,6 @@
   font-weight: 200;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -359,7 +314,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -367,7 +321,6 @@
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -375,7 +328,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -383,7 +335,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -391,7 +342,6 @@
   font-weight: 100;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -399,7 +349,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -407,7 +356,6 @@
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -415,7 +363,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -423,7 +370,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -431,7 +377,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -439,7 +384,6 @@
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -447,7 +391,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -455,7 +398,6 @@
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -463,7 +405,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -471,7 +412,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -479,7 +419,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -487,7 +426,6 @@
   font-weight: 100;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -495,17 +433,13 @@
   font-weight: 400;
   font-style: normal;
 }
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
 /* Document
    ========================================================================== */
-
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
 html {
   line-height: 1.15;
   /* 1 */
@@ -515,11 +449,9 @@ html {
 
 /* Sections
    ========================================================================== */
-
 /**
  * Remove the margin in all browsers.
  */
-
 body {
   margin: 0;
 }
@@ -527,7 +459,6 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-
 main {
   display: block;
 }
@@ -536,7 +467,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -544,15 +474,12 @@ h1 {
 
 /* Grouping content
    ========================================================================== */
-
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -564,7 +491,6 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -574,11 +500,9 @@ pre {
 
 /* Text-level semantics
    ========================================================================== */
-
 /**
  * Remove the gray background on active links in IE 10.
  */
-
 a {
   background-color: transparent;
 }
@@ -587,21 +511,18 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-
 abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-
 b,
 strong {
   font-weight: bolder;
@@ -611,7 +532,6 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-
 code,
 kbd,
 samp {
@@ -624,7 +544,6 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-
 small {
   font-size: 80%;
 }
@@ -633,7 +552,6 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-
 sub,
 sup {
   font-size: 75%;
@@ -652,23 +570,19 @@ sup {
 
 /* Embedded content
    ========================================================================== */
-
 /**
  * Remove the border on images inside links in IE 10.
  */
-
 img {
   border-style: none;
 }
 
 /* Forms
    ========================================================================== */
-
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-
 button,
 input,
 optgroup,
@@ -688,7 +602,6 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-
 button,
 input {
   /* 1 */
@@ -699,7 +612,6 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-
 button,
 select {
   /* 1 */
@@ -709,7 +621,6 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-
 button,
 [type=button],
 [type=reset],
@@ -720,7 +631,6 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-
 button::-moz-focus-inner,
 [type=button]::-moz-focus-inner,
 [type=reset]::-moz-focus-inner,
@@ -732,7 +642,6 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-
 button:-moz-focusring,
 [type=button]:-moz-focusring,
 [type=reset]:-moz-focusring,
@@ -743,7 +652,6 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -754,10 +662,8 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -774,7 +680,6 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-
 progress {
   vertical-align: baseline;
 }
@@ -782,7 +687,6 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-
 textarea {
   overflow: auto;
 }
@@ -791,11 +695,9 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-
 [type=checkbox],
 [type=radio] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -804,7 +706,6 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
   height: auto;
@@ -814,7 +715,6 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-
 [type=search] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -825,7 +725,6 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-
 [type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -834,7 +733,6 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -844,11 +742,9 @@ textarea {
 
 /* Interactive
    ========================================================================== */
-
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-
 details {
   display: block;
 }
@@ -856,18 +752,15 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-
 summary {
   display: list-item;
 }
 
 /* Misc
    ========================================================================== */
-
 /**
  * Add the correct display in IE 10+.
  */
-
 template {
   display: none;
 }
@@ -875,37 +768,33 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-
 [hidden] {
   display: none;
 }
 
 /* Указываем box sizing */
-
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Убираем внутренние отступы */
-
-ul[class],
-ol[class] {
+ul,
+ol {
+  list-style-type: none;
   padding: 0;
 }
 
 /* Убираем внешние отступы */
-
 body,
 h1,
 h2,
 h3,
 h4,
 p,
-ul[class],
-ol[class],
+ul,
+ol,
 li,
 figure,
 figcaption,
@@ -916,7 +805,6 @@ dd {
 }
 
 /* Выставляем основные настройки по-умолчанию для body */
-
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -925,34 +813,28 @@ body {
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
-
 ul[class],
 ol[class] {
   list-style: none;
 }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-
 a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 /* Упрощаем работу с изображениями */
-
 img {
   max-width: 100%;
   display: block;
 }
 
 /* Указываем понятную периодичность в потоке данных у article*/
-
 article > * + * {
   margin-top: 1em;
 }
 
 /* Наследуем шрифты для инпутов и кнопок */
-
 input,
 button,
 textarea,
@@ -961,7 +843,14 @@ select {
 }
 
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
-
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
 html {
   font-family: Comfortaa;
   font-size: 18px;
@@ -979,28 +868,16 @@ header {
 }
 
 .header-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-menu__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 0.2577777778rem;
 }
-
 .header-menu__button span {
   width: 2.8372222222rem;
   height: 0.3094444444rem;
@@ -1015,7 +892,6 @@ header {
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Comfortaa;
   font-display: swap;
@@ -1023,7 +899,6 @@ header {
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Comfortaa;
   font-display: swap;
@@ -1031,7 +906,6 @@ header {
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Comfortaa;
   font-display: swap;
@@ -1039,7 +913,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -1047,7 +920,6 @@ header {
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -1055,7 +927,6 @@ header {
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Comfortaa;
   font-display: swap;
@@ -1063,7 +934,6 @@ header {
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -1071,7 +941,6 @@ header {
   font-weight: 200;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -1079,7 +948,6 @@ header {
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -1087,7 +955,6 @@ header {
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -1095,7 +962,6 @@ header {
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -1103,7 +969,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -1111,7 +976,6 @@ header {
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   font-display: swap;
@@ -1119,7 +983,6 @@ header {
   font-weight: 100;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1127,7 +990,6 @@ header {
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1135,7 +997,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1143,7 +1004,6 @@ header {
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1151,7 +1011,6 @@ header {
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1159,7 +1018,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1167,7 +1025,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1175,7 +1032,6 @@ header {
   font-weight: 200;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1183,7 +1039,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1191,7 +1046,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1199,7 +1053,6 @@ header {
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1207,7 +1060,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1215,7 +1067,6 @@ header {
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1223,7 +1074,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1231,7 +1081,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1239,7 +1088,6 @@ header {
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1247,7 +1095,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1255,7 +1102,6 @@ header {
   font-weight: 100;
   font-style: normal;
 }
-
 @font-face {
   font-family: Montserrat;
   font-display: swap;
@@ -1263,7 +1109,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1271,7 +1116,6 @@ header {
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1279,7 +1123,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1287,7 +1130,6 @@ header {
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1295,7 +1137,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1303,7 +1144,6 @@ header {
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1311,7 +1151,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1319,7 +1158,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1327,7 +1165,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1335,7 +1172,6 @@ header {
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1343,7 +1179,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1351,7 +1186,6 @@ header {
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1359,7 +1193,6 @@ header {
   font-weight: 200;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1367,7 +1200,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1375,7 +1207,6 @@ header {
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1383,7 +1214,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1391,7 +1221,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1399,7 +1228,6 @@ header {
   font-weight: 100;
   font-style: normal;
 }
-
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -1407,7 +1235,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1415,7 +1242,6 @@ header {
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1423,7 +1249,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1431,7 +1256,6 @@ header {
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1439,7 +1263,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1447,7 +1270,6 @@ header {
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1455,7 +1277,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1463,7 +1284,6 @@ header {
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1471,7 +1291,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1479,7 +1298,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1487,7 +1305,6 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1495,7 +1312,6 @@ header {
   font-weight: 100;
   font-style: normal;
 }
-
 @font-face {
   font-family: Roboto;
   font-display: swap;
@@ -1503,19 +1319,16 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
 .main-section {
   text-align: center;
   text-transform: uppercase;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  hyphens: auto;
   font-family: Roboto;
   font-weight: 500;
 }
 
 .main-section__image {
-  margin: 0 auto;
+  margin: 3.1111111111rem auto 2.1666666667rem auto;
 }
 
 .main-section__title {
@@ -1550,30 +1363,14 @@ header {
   margin-bottom: 2.6111111111rem;
 }
 
-.content-section {
-  background-color: #ffffff;
-}
-
-.content-container {
-  max-width: 1350px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 8px;
-}
-
 .button-bubble {
   position: relative;
   display: block;
   margin: 0 auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   overflow: hidden;
-  background: -webkit-gradient(linear, left top, right top, from(#5AC4FF), to(#B250FF));
-  background: -o-linear-gradient(left, #5AC4FF 0%, #B250FF 100%);
   background: linear-gradient(90deg, #5AC4FF 0%, #B250FF 100%);
-  -webkit-box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
   border-radius: 3.4444444444rem;
   font-family: Comfortaa;
   font-weight: 700;
@@ -1583,9 +1380,7 @@ header {
   text-transform: none;
   color: #ffffff;
   padding: 1.4444444444rem 3.1666666667rem;
-  margin-bottom: 6.8333333333rem;
 }
-
 .button-bubble :first-child {
   position: absolute;
   left: -10%;
@@ -1595,7 +1390,6 @@ header {
   border-radius: 4.7222222222rem;
   background: rgba(255, 255, 255, 0.2);
 }
-
 .button-bubble :nth-child(2) {
   position: absolute;
   left: 5%;
@@ -1605,7 +1399,6 @@ header {
   border-radius: 4.7222222222rem;
   background: rgba(255, 255, 255, 0.32);
 }
-
 .button-bubble :nth-child(3) {
   position: absolute;
   right: -5%;
@@ -1616,15 +1409,59 @@ header {
   background: rgba(0, 0, 0, 0.08);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  * {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
-    -webkit-transition-duration: 0.01ms !important;
-         -o-transition-duration: 0.01ms !important;
-            transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+.content-container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+.main-section__list {
+  display: block;
+  margin-top: 6.8333333333rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #ffffff;
+  text-transform: none;
+  background-color: aquamarine;
+}
+.main-section__list :not(:last-child) {
+  margin-bottom: 0.8888888889rem;
+}
+
+.main-section-item__title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.5555555556rem;
+  line-height: 2.2222222222rem;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 0.8888888889rem;
+}
+
+.tarif-section {
+  margin-top: 10.1111111111rem;
+}
+
+.tarif-section__title {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 4rem;
+  line-height: 4.6666666667rem;
+  text-align: center;
+  text-transform: uppercase;
+  hyphens: auto;
+  margin-bottom: 1rem;
+}
+
+.tarif-section__description {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 1.6666666667rem;
+  line-height: 2.0555555556rem;
+  text-align: center;
+  color: #79788F;
+  margin-bottom: 3.5555555556rem;
 }

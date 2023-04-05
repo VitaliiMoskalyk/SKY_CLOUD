@@ -11,7 +11,7 @@
 }
 
 .main-section__image{
-    margin: 0 auto;
+    margin: pxToRem(56px) auto pxToRem(39px) auto;
 }
 
 .main-section__title {

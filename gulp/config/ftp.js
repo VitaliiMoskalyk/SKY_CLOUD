@@ -1,5 +1,5 @@
 export let configFTP = {
-  host: "",
+  host: "https://github.com/",
   user: "",
   password: "",
   parallel: 5,

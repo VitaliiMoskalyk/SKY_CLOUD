@@ -1,12 +1,14 @@
-@import '../_variables.scss';
-@import "../helpers/_pxToRem";
+@import './_variables.scss';
+@import "./helpers/_pxToRem";
+
  header {
-     padding: pxToRem(25px);
+     padding: pxToRem(25px) 0 pxToRem(39.46px) 0;
      font-weight: 700;
      font-size: pxToRem(36px);
      line-height: pxToRem(40px);
      text-transform: uppercase;
      color: $simpleWhite;
+     background: url(@img/BG.png) no-repeat top/1980px 100%;
  }
 
  .header-wrapper {
@@ -17,8 +19,12 @@
 
  .header-menu__button {
      display: flex;
+     height: 100%;
+     z-index: 3;
      flex-direction: column;
      gap: pxToRem(4.64px);
+     cursor: pointer;
+    transition:$bezierTransition;
 
      span {
          width: pxToRem(51.07px);
@@ -26,4 +32,33 @@
          border-radius: pxToRem(22px);
          background-color: $simpleWhite;
      }
+
+        
  }
+ .header-menu__button:hover,.header-menu__button:focus{
+    transform: scale(1.1);
+    transition:$bezierTransition;
+ }
+  .active {
+    gap: 0;
+      :first-of-type {
+      transition:$bezierTransition;
+        transform: translateY(5px) rotate(45deg);
+      }
+      :nth-last-of-type(2){
+        transition: $bezierTransition;
+        transform: rotate(-45deg);
+      }
+      :last-of-type{
+        display: none;
+        visibility: hidden;
+        transition:$bezierTransition;
+      }
+  }
+
+ .header__image {
+    width: 100%;
+    max-width: pxToRem(815.8px);
+    margin: pxToRem(56px) auto 0 auto;
+
+}

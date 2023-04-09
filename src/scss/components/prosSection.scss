@@ -1,0 +1,22 @@
+.pros-section__list {
+    display: block;
+    padding: pxToRem(123px) 0 pxToRem(250px) 0;
+    font-family: $headindSecondary;
+    line-height: pxToRem(27px);
+    color: $simpleWhite;
+    text-transform: none;
+
+    :not(:last-child) {
+        margin-bottom: pxToRem(16px);
+    }
+}
+
+.pros-section-item__title {
+    font-family: $headingTitle;
+    font-weight: 400;
+    font-size: pxToRem(28px);
+    line-height: pxToRem(40px);
+    color: $simpleBlack;
+    text-transform: uppercase;
+    margin-bottom: pxToRem(16px);
+}

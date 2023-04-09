@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,97 +9,186 @@
 
 </head>
 
-  <body>
-    <header>
-  <div class="header-wrapper">
-    <a href="#" style="text-decoration: none; color: inherit">skybox</a>
-    <button
-      type="button"
-      class="header-menu__button"
-      style="border: none; background-color: transparent"
-    >
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+<body>
+  <header>
+  <div class="content-container">
+    <div class="header-wrapper">
+      <a href="#" style="text-decoration: none; color: inherit">skybox</a>
+      <button
+        type="button"
+        class="header-menu__button"
+        id="modal-icon"
+        style="border: none; background-color: transparent"
+        name="menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <img
+      src="img/main-img.png"
+      with="100%"
+      height="100%"
+      alt="server with connected computer"
+      class="header__image"
+    />
   </div>
 </header>
 
-    <main>
-      <section class="main-section content-section">
-        <div class="content-container">
-          <img
-            src="img/main-img.png"
-            with="100%"
-            height="100%"
-            alt="server with connected computer"
-            class="main-section__image"
-          />
-
-          <h1 class="main-section__title" lang="de">personal and business</h1>
-          <p class="main-section__title-subscr">Online storage</p>
-          <h2 class="main-section__let">STORE AND MANAGE ALL YOUR Files!</h2>
-          <p class="main-section__description">
-            Upload multiple files at once and keep them forever on this site. If
-            you're using FireFox or Chrome, you can simply drag & drop your
-            files to begin uploading
-          </p>
-          <a href="#" class="button-bubble" style="text-decoration: none"
-            ><span></span><span></span><span></span> Try SkyBox Now</a
-          >
-          <ul class="main-section__list" style="text-align: left">
-            <li>
-              <h3 class="main-section-item__title">SAFE AND SECURE</h3>
-
-              <p>
-                Safely store and backup all your essential files. From family
-                photos & videos to important documents, you can rely on us to
-                store all your media securely and forever.
-              </p>
-            </li>
-
-            <li>
-              <h3 class="main-section-item__title">Access from anywhere</h3>
-
-              <p>
-                Easily access your files from anywhere with desktop apps for
-                Windows and Mac, and mobile apps for iPhone, iPad, Android, and
-                the web.
-              </p>
-            </li>
-            <li>
-              <h3 class="main-section-item__title">
-                STORE AND MANAGE ALL YOUR FILES!
-              </h3>
-
-              <p>
-                Upload multiple files at once and keep them forever on this
-                site. If you're using FireFox or Chrome, you can simply drag &
-                drop your files to begin uploading.
-              </p>
-            </li>
-            <li>
-              <h3 class="main-section-item__title">Any point of the globe</h3>
-
-              <p>
-                High speed from any location with internet access! Gigabit
-                networking and high-performance server!
-              </p>
-            </li>
-          </ul>
+  <main>
+    <section class="modal hidden" id="modal">
+      <div class="overlay">
         </div>
-      </section>
+    </section>
+    <section class="main-section content-section">
+      <div class="content-container">
+        <h1 class="main-section__title" lang="de">personal and business</h1>
+        <p class="main-section__title-subscr">Online storage</p>
+        <h2 class="main-section__let">STORE AND MANAGE ALL YOUR Files!</h2>
+        <p class="main-section__description">
+          Upload multiple files at once and keep them forever on this site. If
+          you're using FireFox or Chrome, you can simply drag & drop your
+          files to begin uploading
+        </p>
+        <a href="#" class="button-bubble" style="text-decoration: none"><span></span><span></span><span></span> Try
+          SkyBox Now</a>
 
-      <section class="tarif-section content-section">
-        <div class="content-container">
-          <h2 lang="de" class="tarif-section__title">
-            Become a PREMIUM MEMBER
-          </h2>
-          <p class="tarif-section__description">Premium Business</br></br> 1 TB free space and 4 TB monthly transfer</p>
+      </div>
+    </section>
+    <section class="pros-section content-section">
+      <div class="content-container">
+        <ul class="pros-section__list" style="text-align: left">
+          <li>
+            <h3 class="pros-section-item__title">SAFE AND SECURE</h3>
+
+            <p>
+              Safely store and backup all your essential files. From family
+              photos & videos to important documents, you can rely on us to
+              store all your media securely and forever.
+            </p>
+          </li>
+
+          <li>
+            <h3 class="pros-section-item__title">Access from anywhere</h3>
+
+            <p>
+              Easily access your files from anywhere with desktop apps for
+              Windows and Mac, and mobile apps for iPhone, iPad, Android, and
+              the web.
+            </p>
+          </li>
+          <li>
+            <h3 class="pros-section-item__title">
+              STORE AND MANAGE ALL YOUR FILES!
+            </h3>
+
+            <p>
+              Upload multiple files at once and keep them forever on this
+              site. If you're using FireFox or Chrome, you can simply drag &
+              drop your files to begin uploading.
+            </p>
+          </li>
+          <li>
+            <h3 class="pros-section-item__title">Any point of the globe</h3>
+
+            <p>
+              High speed from any location with internet access! Gigabit
+              networking and high-performance server!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="tarif-section content-section">
+      <div class="content-container">
+        <h2 lang="de" class="tarif-section__title">
+          Become a PREMIUM MEMBER
+        </h2>
+        <p class="tarif-section__description">Premium Business</br></br> 1 TB free space and 4 TB monthly transfer</p>
+        <div class="tarif-section-card__list">
+          <div class="tarif-section-card">
+            <h3 class="tarif-section-card__title">Most popular</h3>
+            <p class="tarif-section-card__days">90 days</p>
+            <p class="tarif-section-card__price">$46.99</p>
+            <span class="tarif-section-card__hr"></span>
+            <ul class="tarif-section-card__products">
+              <li>1 Tb Free space</li>
+              <li>4 Tb Monthly space</li>
+              <li>100 Mbit Spee</li>
+              <li>3000 sessions</li>
+            </ul><a href="#" class="tarif-section-card__button">Sing Up</a>
+            <p>14-day money back guarantee</p>
+          </div>
+
+          <div class="tarif-section-card">
+            <h3 class="tarif-section-card__title">Most popular</h3>
+            <p class="tarif-section-card__days">90 days</p>
+            <p class="tarif-section-card__price">$46.99</p>
+            <span class="tarif-section-card__hr"></span>
+            <ul class="tarif-section-card__products">
+              <li>1 Tb Free space</li>
+              <li>4 Tb Monthly space</li>
+              <li>100 Mbit Spee</li>
+              <li>3000 sessions</li>
+            </ul><a href="#" class="tarif-section-card__button">Sing Up</a>
+            <p>14-day money back guarantee</p>
+          </div>
+
+          <div class="tarif-section-card">
+            <h3 class="tarif-section-card__title">Most popular</h3>
+            <p class="tarif-section-card__days">90 days</p>
+            <p class="tarif-section-card__price">$46.99</p>
+            <span class="tarif-section-card__hr"></span>
+            <ul class="tarif-section-card__products">
+              <li>1 Tb Free space</li>
+              <li>4 Tb Monthly space</li>
+              <li>100 Mbit Spee</li>
+              <li>3000 sessions</li>
+            </ul><a href="#" class="tarif-section-card__button">Sing Up</a>
+            <p>14-day money back guarantee</p>
+          </div>
         </div>
-      </section>
-    </main>
 
-    <script src="js/app.min.js"></script>
-  </body>
+      </div>
+    </section>
+
+
+    <section class="statistic-section content-section">
+      <div class="content-container">
+        <span>999529 000 000</span>
+        <p>Загружено файлов на сервис</p>
+        <span>235 764 784</span>
+        <p>Зарегистрировано
+          пользователей</p>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+  <div class="content-container">
+    <h2>Contact us</h2>
+    <address>
+      <ul>
+        <li>
+          Our office: Digitalgoals LTD Lapathou, 6, Strovolos 2027, Lefkosia,
+          Cyprus
+        </li>
+        <li>Phone: +37 06 225 29 36</li>
+        <li>Email: mail@example.com</li>
+      </ul>
+    </address>
+    <p class="footer-copyright">
+      Copyright © 2016 - 2021 SkyBox - Online File Storage
+    </p>
+  </div>
+</footer>
+
+  
+  <script src="js/app.min.js"></script>
+</body>
+
 </html>

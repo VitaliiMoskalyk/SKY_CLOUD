@@ -2,16 +2,17 @@ import dartSass from "sass";
 import gulpSass from "gulp-sass";
 import rename from "gulp-rename";
 
-import cleanCss from "gulp-clean-css"; //squash CSS file
-import webpcss from "gulp-webpcss"; //output of WEBP img
-import autoprefixer from "gulp-autoprefixer"; //vendor prefixes
-import groupCssMediaQueries from "gulp-group-css-media-queries"; //grouping media queries
+import cleanCss from "gulp-clean-css"; // Сжатие CSS файла
+import webpcss from "gulp-webpcss"; // Вывод WEBP изображений
+import autoprefixer from "gulp-autoprefixer"; // Добавление вендорных префиксов
+import groupCssMediaQueries from "gulp-group-css-media-queries"; // Групировка медиа запросов
 
 const sass = gulpSass(dartSass);
+
 export const scss = () => {
   return (
     app.gulp
-      .src(app.path.src.scss, { soursemaps: app.isDev })
+      .src(app.path.src.scss, { sourcemaps: app.isDev })
       .pipe(
         app.plugins.plumber(
           app.plugins.notify.onError({
@@ -20,22 +21,13 @@ export const scss = () => {
           })
         )
       )
-      .pipe(app.plugins.replace(/@img\//g, "../img/"))
       .pipe(
         sass({
           outputStyle: "expanded",
         })
       )
+      .pipe(app.plugins.replace(/@img\//g, "../img/"))
       .pipe(app.plugins.if(app.isBuild, groupCssMediaQueries()))
-      .pipe(
-        app.plugins.if(
-          app.isBuild,
-          webpcss({
-            webpClass: ".webp",
-            noWebpClass: ".no-webp",
-          })
-        )
-      )
       .pipe(
         app.plugins.if(
           app.isBuild,
@@ -46,9 +38,18 @@ export const scss = () => {
           })
         )
       )
-      //Uncomment if you want non-sqashed file of styles
+      .pipe(
+        app.plugins.if(
+          app.isBuild,
+          webpcss({
+            webpClass: ".webp",
+            noWebpClass: ".no-webp",
+          })
+        )
+      )
+      // Раскомментировать если нужен не сжатый дубль файла стилей
       .pipe(app.gulp.dest(app.path.build.css))
-      .pipe(cleanCss())
+      .pipe(app.plugins.if(app.isBuild, cleanCss()))
       .pipe(
         rename({
           extname: ".min.css",

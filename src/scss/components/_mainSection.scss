@@ -1,25 +1,19 @@
-@import '../helpers/_pxToRem';
+@import './helpers/_pxToRem';
 @import "fonts";
-@import '../_variables.scss';
+@import './_variables.scss';
 
 .main-section {
     text-align: center;
     text-transform: uppercase;
     hyphens: auto;
     font-family: $headingTitle;
-    font-weight: 500;
-}
-
-.main-section__image{
-    margin: pxToRem(56px) auto pxToRem(39px) auto;
+    font-weight: 400;
 }
 
 .main-section__title {
     font-weight: 900;
     font-size: pxToRem(72px);
     line-height: pxToRem(70px);
-
-    margin-top: pxToRem(39.46px);
     margin-bottom: pxToRem(9px);
 }
 
@@ -28,15 +22,14 @@
     font-size: pxToRem(24px);
     line-height: pxToRem(36px);
     letter-spacing: 0.35em;
-
     margin-bottom: pxToRem(30px);
 }
 
 .main-section__let {
     font-size: pxToRem(26px);
+    font-weight: 400;
     line-height: pxToRem(41px);
     text-align: left;
-
     margin-bottom: pxToRem(12px);
 }
 
@@ -46,6 +39,7 @@
     line-height: pxToRem(28px);
     letter-spacing: 0.075em;
     text-align: left;
-
     margin-bottom: pxToRem(47px);
+    text-transform: none;
 }
+

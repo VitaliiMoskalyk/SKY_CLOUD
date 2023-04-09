@@ -1,0 +1,116 @@
+.tarif-section__title {
+    font-family: $headingTitle;
+    font-weight: 300;
+    font-size: pxToRem(72px);
+    line-height: pxToRem(84px);
+    text-align: center;
+    text-transform: uppercase;
+    hyphens: auto;
+    margin-bottom: pxToRem(18px);
+}
+
+.tarif-section__description {
+    font-family: $headindSecondary;
+    font-weight: 400;
+    font-size: pxToRem(30px);
+    line-height: pxToRem(37px);
+    text-align: center;
+
+    color: $greyText;
+    margin-bottom: pxToRem(64px);
+}
+
+.pros-section {
+    font-weight: 400;
+    background: url(@img/Features.png) no-repeat center/1153px 100%;
+}
+
+
+.tarif-section-card__list {
+    display: flex;
+    justify-content: center;gap:40px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: pxToRem(40px);
+}
+
+.tarif-section-card {
+    font-family: $paragrafFont;
+    text-align: center;
+    font-weight: 400;
+    max-width: pxToRem(450px);
+    min-width: 320px;
+   
+   
+    padding: pxToRem(57px)pxToRem(40px)pxToRem(40px) pxToRem(40px);
+    border-radius: pxToRem(20px);
+    box-shadow: (0px 13px 27px rgba(0, 0, 0, 0.1));
+    background: url(@img/BG-card.png) no-repeat left top/276px 173px #FCFCFF;
+}
+
+.tarif-section-card__title {
+    line-height: pxToRem(18px);
+    color: $freshText;
+    margin-bottom: pxToRem(14px);
+}
+
+.tarif-section-card__days {
+    font-weight: 700;
+    font-size: pxToRem(48px);
+    line-height: pxToRem(54px);
+    margin-bottom: pxToRem(28px);
+}
+
+.tarif-section-card__price {
+    font-size: pxToRem(64px);
+    line-height: pxToRem(71px);
+
+    color: $brightText;
+    margin-bottom: pxToRem(51.29px);
+}
+
+.tarif-section-card__hr {
+    display: block;
+    margin: 0 auto pxToRem(53.65px) auto;
+    width: pxToRem(186.21px);
+    border-top: 1px solid #D3D3D3;
+}
+
+.tarif-section-card__products {
+    position: relative;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 20px;
+    line-height: pxToRem(9px);
+
+    color: #567796;
+  li{
+    text-align: start;
+//    white-space: nowrap;
+//    word-break: break-all;
+  }
+
+    li:after {
+        content: url(@img/svgicons/check.svg);
+        position: absolute;
+        right: 0;
+    }
+}
+
+.tarif-section-card__button {
+    display: block;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    width: fit-content;
+    margin: pxToRem(63.23px) auto pxToRem(63.23px) auto;
+    padding: pxToRem(15px) pxToRem(40px);
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size: pxToRem(24px);
+    line-height: pxToRem(27px);
+
+    color: $simpleWhite;
+}

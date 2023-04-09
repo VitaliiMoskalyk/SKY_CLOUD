@@ -1,87 +1,118 @@
 @use 'fonts';
+@use './components/header';
+
 @import './_variables.scss';
 
 @import './resetStyles/_normolize.scss';
 @import './resetStyles/_resetCss.scss';
 
 html {
-    font-family: Comfortaa;
+    font-family: $paragrafFont;
     font-size: 18px;
-    background-color: aquamarine;
+    font-weight: 400;
     color:$mainTextColor;
-}
-
-@import './helpers/_pxToRem';
-@import './components/_header.scss';
-@import './components/_mainSection.scss';
-@import "./components/_bubbleButton";
-
-
-.content-section{
-
 }
 .content-container {
     max-width: 1350px;
     width: 100%;
     margin: 0 auto;
-    padding:0 8px;
-  
+    padding: 0 8px;
 }
 
+@import './helpers/_pxToRem';
+@import './components/mainSection';
+@import "./components/bubbleButton";
+@import "./components/prosSection";
+@import "./components/tarifSection.scss";
 
-//////////////////////////////
-.main-section__list{
-display: block;
-    margin-top: pxToRem(123px);
-    font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
-        line-height:pxToRem(27px);
-        color: $simpleWhite;
-        text-transform: none;
-        background-color: aquamarine;
+
+
+
+/////////////////////////
+
+.statistic-section{
+
+margin: pxToRem(131.39px) 0;
+text-align: center;
+
+
+span{
+    display: block;
+    font-weight: 700;
+        font-size: pxToRem(42px);
+        line-height: pxToRem(47px);
+        margin-bottom: pxToRem(8px);
         
-:not(:last-child){
-    margin-bottom: pxToRem(16px);
+}
+p{
+    font-weight: 700;
+        font-size: pxToRem(20px);
+        line-height: pxToRem(22px);
+        color: #718DC2;
+        
+}
+p:not(:last-of-type) {
+    margin-bottom: pxToRem(63px);
 }
 }
 
-.main-section-item__title{
-    font-family: Roboto;
-        font-weight: 500;
-        font-size: pxToRem(28px);
-        line-height: pxToRem(40px);
-        color: $simpleBlack;
-        text-transform: uppercase;
-        margin-bottom: pxToRem(16px);
+.statistic-section span:first-of-type::before{
+    content: url(@img/svgicons/load.svg);
+    display: block;
+    margin-bottom:pxToRem(17px) ;
+}
+
+.statistic-section span:last-of-type::before {
+    content: url(@img/svgicons/add-user.svg);
+    display: block;
+    margin-bottom: pxToRem(17px);
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+   
+   flex-direction: column;
+   gap:pxToRem(73px);
+   background: url(@img/BG-footer.png) no-repeat top right/cover;
+color: $simpleWhite;
+ address{
+    font-style: normal;
+  } 
+ h2{
+font-weight: 700;
+    font-size: pxToRem(48px);
+    line-height: pxToRem(54px);
+   
+    margin-top: pxToRem(400px);
+ }
+ ul{
+    font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+      
+ }
+}
+.footer-copyright{
+    padding: pxToRem(42.9px) 0;
+    width: 100%;
+text-align: center;
+        border-top: 1px solid #ffffff79;
 }
 
 
-////////////
-.tarif-section{
 
-    margin-top: pxToRem(182px);
+.modal{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135.76deg, #9584FF 20.74%, #B556FF 76.27%);
+ 
 }
-.tarif-section__title{
-    font-family: Roboto;
+.hidden {
+    display: none;
+    visibility: hidden;
 
-        font-weight: 300;
-        font-size: pxToRem(72px);
-        line-height: pxToRem(84px);
-        text-align: center;
-        text-transform: uppercase;
-        hyphens: auto;
-        margin-bottom: pxToRem(18px);
-}
-
-.tarif-section__description{
-font-family: Montserrat;
-
-    font-weight: 500;
-    font-size: pxToRem(30px);
-    line-height:pxToRem(37px);
-    text-align: center;
-
-    color: $greyText;
-margin-bottom: pxToRem(64px);
 }

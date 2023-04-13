@@ -5,10 +5,20 @@
 <body>
   @@include('html/header.html',{})
   <main>
-    <section class="modal hidden" id="modal">
-      <div class="overlay">
-        </div>
+    
+@@include('html/modal.html',{})
+    <section class="image-section content-section">
+      <div class="content-container">
+        <img
+      src="@img/main-img.png"
+      with="100%"
+      height="100%"
+      alt="server with connected computer"
+      class="header__image"
+    />
+      </div>
     </section>
+      
     <section class="main-section content-section">
       <div class="content-container">
         <h1 class="main-section__title" lang="de">personal and business</h1>
@@ -21,9 +31,10 @@
         </p>
         <a href="#" class="button-bubble" style="text-decoration: none"><span></span><span></span><span></span> Try
           SkyBox Now</a>
-
       </div>
     </section>
+
+
     <section class="pros-section content-section">
       <div class="content-container">
         <ul class="pros-section__list" style="text-align: left">
@@ -88,7 +99,7 @@
               <li>100 Mbit Spee</li>
               <li>3000 sessions</li>
             </ul><a href="#" class="tarif-section-card__button">Sing Up</a>
-            <p>14-day money back guarantee</p>
+            <p  class="tarif-section-card__post">14-day money back guarantee</p>
           </div>
 
           <div class="tarif-section-card">
@@ -102,7 +113,7 @@
               <li>100 Mbit Spee</li>
               <li>3000 sessions</li>
             </ul><a href="#" class="tarif-section-card__button">Sing Up</a>
-            <p>14-day money back guarantee</p>
+            <p  class="tarif-section-card__post">14-day money back guarantee</p>
           </div>
 
           <div class="tarif-section-card">
@@ -116,7 +127,7 @@
               <li>100 Mbit Spee</li>
               <li>3000 sessions</li>
             </ul><a href="#" class="tarif-section-card__button">Sing Up</a>
-            <p>14-day money back guarantee</p>
+            <p  class="tarif-section-card__post">14-day money back guarantee</p>
           </div>
         </div>
 
@@ -124,17 +135,10 @@
     </section>
 
 
-    <section class="statistic-section content-section">
-      <div class="content-container">
-        <span>999529 000 000</span>
-        <p>Загружено файлов на сервис</p>
-        <span>235 764 784</span>
-        <p>Зарегистрировано
-          пользователей</p>
-      </div>
-    </section>
 
+ @@include('html/statistic.html',{})
   </main>
+ 
   @@include('html/footer.html',{})
   
   <script src="js/app.min.js"></script>

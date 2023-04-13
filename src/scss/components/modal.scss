@@ -1,0 +1,12 @@
+.modal {
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135.76deg, #9584FF 20.74%, #B556FF 76.27%);
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}

@@ -13,7 +13,9 @@
   <header>
   <div class="content-container">
     <div class="header-wrapper">
-      <a href="#" style="text-decoration: none; color: inherit">skybox</a>
+      <a href="index.html" style="text-decoration: none; color: inherit"
+        >skybox</a
+      >
       <button
         type="button"
         class="header-menu__button"
@@ -26,22 +28,32 @@
         <span></span>
       </button>
     </div>
+  </div>
+</header>
 
-    <img
+  <main>
+    
+<section class="modal hidden" id="modal">
+  <div class="overlay">
+    <a href="./contact.html" style="display: block; padding-top: 100px"
+      >Contact</a
+    >
+    <a href="./faq.html" style="display: block; padding-top: 100px">FAQ</a>
+  </div>
+</section>
+
+    <section class="image-section content-section">
+      <div class="content-container">
+        <img
       src="img/main-img.png"
       with="100%"
       height="100%"
       alt="server with connected computer"
       class="header__image"
     />
-  </div>
-</header>
-
-  <main>
-    <section class="modal hidden" id="modal">
-      <div class="overlay">
-        </div>
+      </div>
     </section>
+      
     <section class="main-section content-section">
       <div class="content-container">
         <h1 class="main-section__title" lang="de">personal and business</h1>
@@ -54,9 +66,10 @@
         </p>
         <a href="#" class="button-bubble" style="text-decoration: none"><span></span><span></span><span></span> Try
           SkyBox Now</a>
-
       </div>
     </section>
+
+
     <section class="pros-section content-section">
       <div class="content-container">
         <ul class="pros-section__list" style="text-align: left">
@@ -121,7 +134,7 @@
               <li>100 Mbit Spee</li>
               <li>3000 sessions</li>
             </ul><a href="#" class="tarif-section-card__button">Sing Up</a>
-            <p>14-day money back guarantee</p>
+            <p  class="tarif-section-card__post">14-day money back guarantee</p>
           </div>
 
           <div class="tarif-section-card">
@@ -135,7 +148,7 @@
               <li>100 Mbit Spee</li>
               <li>3000 sessions</li>
             </ul><a href="#" class="tarif-section-card__button">Sing Up</a>
-            <p>14-day money back guarantee</p>
+            <p  class="tarif-section-card__post">14-day money back guarantee</p>
           </div>
 
           <div class="tarif-section-card">
@@ -149,7 +162,7 @@
               <li>100 Mbit Spee</li>
               <li>3000 sessions</li>
             </ul><a href="#" class="tarif-section-card__button">Sing Up</a>
-            <p>14-day money back guarantee</p>
+            <p  class="tarif-section-card__post">14-day money back guarantee</p>
           </div>
         </div>
 
@@ -157,17 +170,18 @@
     </section>
 
 
-    <section class="statistic-section content-section">
-      <div class="content-container">
-        <span>999529 000 000</span>
-        <p>Загружено файлов на сервис</p>
-        <span>235 764 784</span>
-        <p>Зарегистрировано
-          пользователей</p>
-      </div>
-    </section>
+
+ <section class="statistic-section content-section">
+  <div class="content-container">
+    <span id="num1">999529000000</span>
+    <p>Загружено файлов на сервис</p>
+    <span id="num2">235764784</span>
+    <p>Зарегистрировано пользователей</p>
+  </div>
+</section>
 
   </main>
+ 
   <footer>
   <div class="content-container">
     <h2>Contact us</h2>

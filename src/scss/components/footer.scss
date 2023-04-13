@@ -1,0 +1,38 @@
+footer  {
+    
+    background: url(@img/BG-footer.png) no-repeat top right/cover;
+    color: $simpleWhite;
+
+    div{
+        display: flex;
+            align-items: center;
+        
+            flex-direction: column;
+            gap: pxToRem(73px);
+    }
+    address {
+        font-style: normal;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: pxToRem(48px);
+        line-height: pxToRem(54px);
+
+        margin-top: pxToRem(300px);
+    }
+
+    ul {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+}
+
+.footer-copyright {
+    padding: pxToRem(42.9px) 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ffffff79;
+}

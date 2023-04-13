@@ -1,0 +1,35 @@
+.statistic-section {
+    margin: pxToRem(131.39px) 0;
+    text-align: center;
+
+    span {
+        display: block;
+        font-weight: 700;
+        font-size: pxToRem(42px);
+        line-height: pxToRem(47px);
+        margin-bottom: pxToRem(8px);
+    }
+
+    p {
+        font-weight: 700;
+        font-size: pxToRem(20px);
+        line-height: pxToRem(22px);
+        color: #718DC2;
+    }
+
+    p:not(:last-of-type) {
+        margin-bottom: pxToRem(63px);
+    }
+}
+
+.statistic-section span:first-of-type::before {
+    content: url(@img/svgicons/load.svg);
+    display: block;
+    margin-bottom: pxToRem(17px);
+}
+
+.statistic-section span:last-of-type::before {
+    content: url(@img/svgicons/add-user.svg);
+    display: block;
+    margin-bottom: pxToRem(17px);
+}

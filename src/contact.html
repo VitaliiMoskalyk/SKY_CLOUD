@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  @@include('html/head.html',{ "title":"Contacts" })
+  <body>
+    @@include('html/header.html',{})
+    <main>
+      @@include('html/modal.html',{})
+      <section class="contact-section content-section">
+        <div class="content-container">
+          <h1 lang="de" class="contact-section_title">Contact</h1>
+          <p>Online storage</p>
+        </div>
+      </section>
+
+      <img
+        src="@img/MAP.png"
+        alt="there is a map"
+        height="613px"
+        class="contact-map_image"
+      />
+      <section class="form-section content-section">
+        <div class="content-container">
+          <h2>Drop us a line</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div class="form-section__form">
+            <form action="">
+              <div class="form-section__form">
+              <!-- <label for="GET-mail">mail@example.com</label> -->
+              <input id="GET-mail" type="mail" name="mail" placeholder="mail@example.com"/>
+              <!-- <label for="GET-name">John Doe</label> -->
+              <input id="GET-name" type="text" name="name" placeholder="John Doe"/>
+              <!-- <label for="GET-message">Message</label> -->
+              <input id="GET-message" type="text" name="message" placeholder="Message"/>
+              <span class="form-section__warn">We do not share your personal data.</span>
+              <input
+                type="submit"
+                class="tarif-section-card__button"
+                value="Subscribe"
+                style="border: none;"
+              /></div>
+            </form>
+         
+        </div>
+      </section>
+      @@include('html/statistic.html',{})
+    </main>
+    @@include('html/footer.html',{})
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+.form-section {
+    text-align: center;
+    margin-top: pxToRem(84.49px);
+
+    h2 {
+        font-weight: 700;
+        font-size: pxToRem(48px);
+        line-height: pxToRem(54px);
+        margin-bottom: pxToRem(16.51px);
+    }
+
+    p {
+        font-weight: 400;
+        font-size: pxToRem(24px);
+        line-height: pxToRem(27px);
+        text-align: center;
+        color: $greyText;
+        margin-bottom: pxToRem(47px);
+    }
+}
+
+.form-section__form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: pxToRem(20px);
+    max-width: pxToRem(750px);
+    font-weight: 700;
+    font-size: pxToRem(24px);
+    line-height: pxToRem(27px);
+    color: #ADADAD;
+
+    input:not(:last-of-type) {
+        padding: pxToRem(36px) pxToRem(57px);
+        border-radius: 61px;
+        border: none;
+        background: #F3F3F3;
+    }
+    #GET-message {
+        height: pxToRem(273px);
+    }
+}
+
+.form-section__warn {
+    margin: pxToRem(50px) auto pxToRem(36px) auto;
+    font-weight: 700;
+    font-size: pxToRem(18px);
+    line-height: pxToRem(20px);
+
+
+
+
+}

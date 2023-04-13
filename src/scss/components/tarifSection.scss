@@ -28,7 +28,8 @@
 
 .tarif-section-card__list {
     display: flex;
-    justify-content: center;gap:40px;
+    justify-content: center;
+    gap:40px;
     width: 100%;
     overflow: hidden;
     padding-bottom: pxToRem(40px);
@@ -39,7 +40,7 @@
     text-align: center;
     font-weight: 400;
     max-width: pxToRem(450px);
-    min-width: 320px;
+    min-width: pxToRem(320px);
    
    
     padding: pxToRem(57px)pxToRem(40px)pxToRem(40px) pxToRem(40px);
@@ -86,6 +87,7 @@
     line-height: pxToRem(9px);
 
     color: #567796;
+    margin-bottom: pxToRem(63.23px);
   li{
     text-align: start;
 //    white-space: nowrap;
@@ -99,12 +101,14 @@
     }
 }
 
+
+
 .tarif-section-card__button {
     display: block;
     background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
     border-radius: 62px;
     width: fit-content;
-    margin: pxToRem(63.23px) auto pxToRem(63.23px) auto;
+    margin: 0 auto;
     padding: pxToRem(15px) pxToRem(40px);
 
     text-decoration: none;
@@ -113,4 +117,7 @@
     line-height: pxToRem(27px);
 
     color: $simpleWhite;
+}
+.tarif-section-card__post {
+    margin-top: pxToRem(63.23px);
 }

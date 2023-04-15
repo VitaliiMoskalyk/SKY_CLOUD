@@ -10,19 +10,20 @@
     font-weight: 400;  
 }
 
-.main-section__title {
+.title {
     font-weight: 900;
     font-size: pxToRem(72px);
     line-height: pxToRem(70px);
     margin-bottom: pxToRem(9px);
 }
 
-.main-section__title-subscr {
+.title-subscr {
     font-family: $headindSecondary;
     font-size: pxToRem(24px);
     line-height: pxToRem(36px);
     letter-spacing: 0.35em;
     margin-bottom: pxToRem(30px);
+    text-transform: uppercase;
 }
 
 .main-section__let {

@@ -5,17 +5,27 @@
     @@include('html/header.html',{})
     <main>
       @@include('html/modal.html',{})
-      <section class="contact-section content-section">
+      <section class="title-section content-section">
         <div class="content-container">
-          <h1 lang="de" class="contact-section_title">FAQ</h1>
-          <p>Online storage</p>
+          @@include('html/title.html',{'heading':'faq'})
         </div>
       </section>
+
       <section class="content-section">
         <div class="content-container">
+          <h2 style="display: none; visibility: hidden">FAQ-list</h2>
           <ul class="faq-list">
             <li>
-              <p>How to install?<span>+</span></p>
+              <p class="faq-ask ask-open">How to install?<span>-</span></p>
+              <span class="faq-answer answer-open"
+                >Orci nibh faucibus nunc aliquet diam. Neque quis dignissim
+                ipsum eget sed massa feugiat sit nibh. Pretium eget morbi
+                tincidunt justo, mattis tincidunt facilisis lorem. Commodo, sit
+                enim, amet fringilla in
+              </span>
+            </li>
+            <li>
+              <p class="faq-ask">How to install?<span>+</span></p>
               <span class="faq-answer"
                 >Orci nibh faucibus nunc aliquet diam. Neque quis dignissim
                 ipsum eget sed massa feugiat sit nibh. Pretium eget morbi
@@ -24,7 +34,7 @@
               </span>
             </li>
             <li>
-              <p>How to install?<span>+</span></p>
+              <p class="faq-ask">How to install?<span>+</span></p>
               <span class="faq-answer"
                 >Orci nibh faucibus nunc aliquet diam. Neque quis dignissim
                 ipsum eget sed massa feugiat sit nibh. Pretium eget morbi
@@ -33,7 +43,7 @@
               </span>
             </li>
             <li>
-              <p>How to install?<span>+</span></p>
+              <p class="faq-ask">How to install?<span>+</span></p>
               <span class="faq-answer"
                 >Orci nibh faucibus nunc aliquet diam. Neque quis dignissim
                 ipsum eget sed massa feugiat sit nibh. Pretium eget morbi
@@ -42,7 +52,7 @@
               </span>
             </li>
             <li>
-              <p>How to install?<span>+</span></p>
+              <p class="faq-ask">How to install?<span>+</span></p>
               <span class="faq-answer"
                 >Orci nibh faucibus nunc aliquet diam. Neque quis dignissim
                 ipsum eget sed massa feugiat sit nibh. Pretium eget morbi
@@ -51,7 +61,7 @@
               </span>
             </li>
             <li>
-              <p>How to install?<span>+</span></p>
+              <p class="faq-ask">How to install?<span>+</span></p>
               <span class="faq-answer"
                 >Orci nibh faucibus nunc aliquet diam. Neque quis dignissim
                 ipsum eget sed massa feugiat sit nibh. Pretium eget morbi
@@ -60,16 +70,7 @@
               </span>
             </li>
             <li>
-              <p>How to install?<span>+</span></p>
-              <span class="faq-answer"
-                >Orci nibh faucibus nunc aliquet diam. Neque quis dignissim
-                ipsum eget sed massa feugiat sit nibh. Pretium eget morbi
-                tincidunt justo, mattis tincidunt facilisis lorem. Commodo, sit
-                enim, amet fringilla in
-              </span>
-            </li>
-            <li>
-              <p>How to install?<span>+</span></p>
+              <p class="faq-ask">How to install?<span>+</span></p>
               <span class="faq-answer"
                 >Orci nibh faucibus nunc aliquet diam. Neque quis dignissim
                 ipsum eget sed massa feugiat sit nibh. Pretium eget morbi
@@ -80,9 +81,7 @@
           </ul>
         </div>
       </section>
-      <section class="content-section">
-        <div class="content-container"></div>
-      </section>
+
       @@include('html/statistic.html',{})
     </main>
     @@include('html/footer.html',{})

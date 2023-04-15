@@ -37,30 +37,28 @@ html {
 
 }
 
-.contact-section{
-background: url(@img/BG-other.png) no-repeat top center/cover;
-text-align: center;
-}
-.contact-section_title{
-    padding: pxToRem(211px) 0 pxToRem(15px) 0;
-    font-family:$headingTitle;
-        font-weight: 900;
-        font-size: pxToRem(72px);
-        line-height: pxToRem(70px);
-        letter-spacing: 0.025em;
-        text-transform: uppercase;
-        hyphens: auto;
-    p{
-        font-family:$headindSecondary;
-            font-weight: 400;
-            font-size: pxToRem(24px);
-            line-height: pxToRem(36px);
-            letter-spacing: 0.38em;
-            
-           
-    }
-    
-}
+
+.title-section{
+    background: url(@img/BG-other.png) no-repeat top center/cover;
+        text-align: center;
+    h1 {
+            padding: pxToRem(211px) 0 pxToRem(15px) 0;
+            font-family: $headingTitle;
+            font-weight: 900;
+            font-size: pxToRem(72px);
+            line-height: pxToRem(70px);
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            hyphens: auto;
+        }
+                p {
+                    font-family: $headindSecondary;
+                    font-weight: 400;
+                    font-size: pxToRem(24px);
+                    line-height: pxToRem(36px);
+                    letter-spacing: 0.38em;
+                }
+} 
 
 .contact-map_image{
     object-fit: cover;
@@ -79,22 +77,32 @@ text-align: center;
    
    li {
     width: 100%;
-    p {
+
+    .faq-ask{
     display: flex;
-   flex-wrap: nowrap;
-   justify-content: space-between;
-   width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
     font-weight: 700;
         font-size: pxToRem(30px);
         line-height: pxToRem(33px);
         padding: pxToRem(28px);
         border-radius: pxToRem(20px) pxToRem(20px) 0 0;
-    background: linear-gradient(90deg, #b2e3ff7c 0%, #dfbfff85 100%);
+        background: linear-gradient(90deg, #b2e3ff7c 0%, #dfbfff85 100%);
+
+   }
+   .ask-open {
+       background: linear-gradient(90deg, #B1E3FF 0%, #DFBEFF 100%);
 
    }
    .faq-answer{
-    display: block;
+    display: none;
+    visibility: hidden;
     margin-top: pxToRem(31px);
+   }
+   .answer-open{
+    display: block;
+        visibility: visible;
    }
 }
  

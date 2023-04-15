@@ -5,17 +5,16 @@
     @@include('html/header.html',{})
     <main>
       @@include('html/modal.html',{})
-      <section class="contact-section content-section">
+      <section class="title-section content-section">
         <div class="content-container">
-          <h1 lang="de" class="contact-section_title">Contact</h1>
-          <p>Online storage</p>
+          @@include('html/title.html',{'heading':'contact'})
         </div>
       </section>
 
       <img
         src="@img/MAP.png"
         alt="there is a map"
-        height="613px"
+        height="613"
         class="contact-map_image"
       />
       <section class="form-section content-section">
@@ -25,21 +24,39 @@
           <div class="form-section__form">
             <form action="">
               <div class="form-section__form">
-              <!-- <label for="GET-mail">mail@example.com</label> -->
-              <input id="GET-mail" type="mail" name="mail" placeholder="mail@example.com"/>
-              <!-- <label for="GET-name">John Doe</label> -->
-              <input id="GET-name" type="text" name="name" placeholder="John Doe"/>
-              <!-- <label for="GET-message">Message</label> -->
-              <input id="GET-message" type="text" name="message" placeholder="Message"/>
-              <span class="form-section__warn">We do not share your personal data.</span>
-              <input
-                type="submit"
-                class="tarif-section-card__button"
-                value="Subscribe"
-                style="border: none;"
-              /></div>
+                <!-- <label for="GET-mail">mail@example.com</label> -->
+                <input
+                  id="GET-mail"
+                  type="mail"
+                  name="mail"
+                  placeholder="mail@example.com"
+                />
+                <!-- <label for="GET-name">John Doe</label> -->
+                <input
+                  id="GET-name"
+                  type="text"
+                  name="name"
+                  placeholder="John Doe"
+                />
+                <!-- <label for="GET-message">Message</label> -->
+                <input
+                  id="GET-message"
+                  type="text"
+                  name="message"
+                  placeholder="Message"
+                />
+                <span class="form-section__warn"
+                  >We do not share your personal data.</span
+                >
+                <input
+                  type="submit"
+                  class="tarif-section-card__button"
+                  value="Subscribe"
+                  style="border: none"
+                />
+              </div>
             </form>
-         
+          </div>
         </div>
       </section>
       @@include('html/statistic.html',{})

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  @@include('html/head.html',{ "title":"Price" })
+  <body>
+    @@include('html/header.html',{})
+    <main>
+      @@include('html/modal.html',{})
+      <section class="title-section content-section">
+        <div class="content-container">
+          @@include('html/title.html',{'heading':'price'})
+        </div>
+      </section>
+
+      @@include('html/tarif.html',{})
+      <section class="content-section">
+        <div class="content-container">@@include('html/statistic.html',{})</div>
+      </section>
+    </main>
+    @@include('html/footer.html',{})
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

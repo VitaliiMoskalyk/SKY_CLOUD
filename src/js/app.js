@@ -24,4 +24,5 @@ window.onload = function () {
 };
 //FAQ section - open questions when they clicked
 const faqList = document.getElementById("faq-list");
-faqList.addEventListener("click", (e) => faqOpener(e));
+
+faqList && faqList.addEventListener("click", (e) => faqOpener(e));

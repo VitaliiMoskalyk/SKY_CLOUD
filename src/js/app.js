@@ -1,6 +1,7 @@
 import * as flsFunctions from "./modules/functions.js";
 import ModalOpener from "./modules/modal.js";
 import { CountUp } from "countup.js";
+import faqOpener from "./modules/faqOpener.js";
 
 flsFunctions.isWebP();
 
@@ -21,3 +22,6 @@ window.onload = function () {
   countUp.start();
   countUp2.start();
 };
+//FAQ section - open questions when they clicked
+const faqList = document.getElementById("faq-list");
+faqList.addEventListener("click", (e) => faqOpener(e));

@@ -105,13 +105,6 @@ header {
   transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.header__image {
-  width: 100%;
-  max-width: 45.3222222222rem;
-  margin: auto;
-  padding: 7rem 0;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -599,6 +592,46 @@ html {
   hyphens: auto;
   font-family: Roboto;
   font-weight: 400;
+  background: url(../img/BG.png) no-repeat top/110% 50%;
+}
+@media screen and (min-width: 1180px) {
+  .main-section {
+    background: url(../img/BG.png) no-repeat top/110% 85%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .main-section {
+    background: url(../img/BG.png) no-repeat top/110% 40%;
+  }
+}
+.main-section .main-section__imgTitle-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1180px) {
+  .main-section .main-section__imgTitle-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+.main-section .header__image {
+  max-width: 45.3222222222rem;
+  width: 70%;
+  padding: 7rem 0;
+}
+@media screen and (min-width: 768px) {
+  .main-section .header__image {
+    max-width: 50%;
+  }
+}
+.main-section .button-bubble {
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .main-section .button-bubble {
+    margin: 0;
+  }
 }
 
 .title {
@@ -638,7 +671,6 @@ html {
 .button-bubble {
   position: relative;
   display: block;
-  margin: 0 auto;
   width: fit-content;
   overflow: hidden;
   background: linear-gradient(90deg, #5AC4FF 0%, #B250FF 100%);
@@ -688,6 +720,8 @@ html {
   line-height: 1.5rem;
   color: #ffffff;
   text-transform: none;
+  max-width: 438px;
+  margin: 0 auto;
 }
 .pros-section__list :not(:last-child) {
   margin-bottom: 0.8888888889rem;
@@ -952,8 +986,10 @@ footer ul {
   line-height: 1.1111111111rem;
 }
 
-.image-section {
+.image-section div {
+  display: flex;
   background: url(../img/BG.png) no-repeat top/cover;
+  justify-content: end;
 }
 
 .title-section {

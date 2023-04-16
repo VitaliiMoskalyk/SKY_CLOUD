@@ -5,10 +5,13 @@
     line-height: pxToRem(27px);
     color: $simpleWhite;
     text-transform: none;
+    max-width: 438px;
+    margin: 0 auto;
 
     :not(:last-child) {
         margin-bottom: pxToRem(16px);
     }
+    
 }
 
 .pros-section-item__title {

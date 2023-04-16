@@ -8,6 +8,43 @@
     hyphens: auto;
     font-family: $headingTitle;
     font-weight: 400;  
+    background: url(@img/BG.png) no-repeat top/110% 50%;
+
+    @media screen and (min-width:1180px) {
+        background: url(@img/BG.png) no-repeat top/110% 85%;
+    
+        }
+                 @media screen and (max-width:390px) {
+                     background: url(@img/BG.png) no-repeat top/110% 40% ;
+        
+                 }
+           
+
+    .main-section__imgTitle-wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media screen and (min-width:1180px) {
+           display: flex;
+           flex-direction: row-reverse;
+        }         
+    }
+    .header__image {
+            max-width: pxToRem(815.8px);
+            width: 70%;
+            padding: pxToRem(126px) 0;
+            @media screen and (min-width:768px) {
+        max-width: 50%;
+                }
+        
+    }
+ 
+    .button-bubble{
+        margin: 0 auto;
+        @media screen and (min-width:768px) {
+                margin: 0;
+            }
+    }
 }
 
 .title {

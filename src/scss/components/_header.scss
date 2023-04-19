@@ -13,6 +13,30 @@
      text-transform: uppercase;
      color: $simpleWhite;
     
+     nav,ul,.header-menu__authorization{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      font-weight: 700;
+        font-size: pxToRem(20px);
+        line-height: pxToRem(22px);
+        a{
+          color: $simpleWhite;
+        text-decoration: none;
+      text-transform: none;}
+     }
+.header-menu__authorization a{
+  
+  text-transform: uppercase;
+}
+ }
+
+ .header-menu__navigation{
+  width: 60%;
+  @media screen and (max-width:1179px) {
+    display: none;
+    visibility: hidden;
+  }
  }
 
  .header-wrapper {
@@ -37,11 +61,17 @@
          background-color: $simpleWhite;
      }
 
-        
+             @media screen and (min-width:1180px) {
+               display: none;
+               visibility: hidden;}
  }
  .header-menu__button:hover,.header-menu__button:focus{
+
+  
     transform: scale(1.1);
-    transition:$bezierTransition;
+      transition: $bezierTransition;
+  
+    
  }
   .active {
     gap: 0;

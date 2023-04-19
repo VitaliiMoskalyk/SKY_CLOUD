@@ -1,7 +1,13 @@
 .statistic-section {
     margin: pxToRem(131.39px) 0;
     text-align: center;
-
+@media screen and (min-width:1180px) {
+    .content-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+}
     span {
         display: block;
         font-weight: 700;
@@ -17,18 +23,21 @@
         color: #718DC2;
     }
 
-    p:not(:last-of-type) {
+    div:not(:last-of-type) {
         margin-bottom: pxToRem(63px);
+        @media screen and (min-width:1180px) {
+            margin-bottom: 0;
+        }
     }
 }
 
-.statistic-section span:first-of-type::before {
+#num1::before {
     content: url(@img/svgicons/load.svg);
     display: block;
     margin-bottom: pxToRem(17px);
 }
 
-.statistic-section span:last-of-type::before {
+#num2::before {
     content: url(@img/svgicons/add-user.svg);
     display: block;
     margin-bottom: pxToRem(17px);

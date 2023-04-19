@@ -16,7 +16,9 @@ html {
     width: 100%;
     margin: 0 auto;
     padding: 0 8px;
-   
+   @media screen and (min-width:1180px) {
+    padding: 0 25px;
+   }
 }
 
 @import './helpers/_pxToRem';
@@ -43,6 +45,9 @@ justify-content: end;
 .title-section{
     background: url(@img/BG-other.png) no-repeat top center/cover;
         text-align: center;
+        @media screen and (min-width:1800px) {
+            background: url(@img/BG-other.png) no-repeat top center/100% 100%;
+        }
     h1 {
             padding: pxToRem(211px) 0 pxToRem(15px) 0;
             font-family: $headingTitle;

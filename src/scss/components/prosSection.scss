@@ -1,3 +1,20 @@
+.pros-section div {
+    font-weight: 400;
+    background: url(@img/Features.png) no-repeat center/1153px 100%;
+ 
+    @media screen and (min-width:1180px) {
+
+            background: url(@img/CLOUD.png) no-repeat left/50%,url(@img/Features.png)no-repeat left/50% ;
+          
+        }  
+              
+}
+.pros-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 .pros-section__list {
     display: block;
     padding: pxToRem(123px) 0 pxToRem(250px) 0;
@@ -5,16 +22,21 @@
     line-height: pxToRem(27px);
     color: $simpleWhite;
     text-transform: none;
-    max-width: 438px;
+    max-width: pxToRem(438px);
     margin: 0 auto;
 
-    :not(:last-child) {
+    li:not(:last-child) {
         margin-bottom: pxToRem(16px);
+   
     }
-    
-}
+        @media screen and (min-width:1180px) {
+            margin: 0 ;
+            color: #2B4964;
+            max-width: pxToRem(606px);
+}}
 
 .pros-section-item__title {
+
     font-family: $headingTitle;
     font-weight: 400;
     font-size: pxToRem(28px);
@@ -22,4 +44,12 @@
     color: $simpleBlack;
     text-transform: uppercase;
     margin-bottom: pxToRem(16px);
+
+
+    @media screen and (min-width:1180px) {
+        font-size: pxToRem(36px);
+            line-height: pxToRem(60px);
+            color:$mainTextColor;
+            margin-bottom: 0;
+        }
 }

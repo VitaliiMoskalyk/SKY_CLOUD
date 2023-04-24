@@ -1309,3 +1309,24 @@ footer ul a {
   opacity: 1;
   transition: opacity 1s ease, transform 0.6s ease;
 }
+
+.terms-section h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.3333333333rem;
+  text-transform: uppercase;
+}
+.terms-section p {
+  font-family: Montserrat;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #2B4964;
+  margin-bottom: 1.4444444444rem;
+}
+.terms-section .terms-section__columns {
+  columns: 2;
+}

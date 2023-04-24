@@ -1,15 +1,14 @@
 .button-bubble {
     position: relative;
     display: block;
-    // margin: 0 auto;
     width: fit-content;
     overflow: hidden;
 
-    background: linear-gradient(90deg, #5AC4FF 0%, #B250FF 100%);
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    background:$buttonPrimary;
+    box-shadow:$buttonShadow;
     border-radius: pxToRem(62px);
 
-    font-family: Comfortaa;
+    font-family: $paragrafFont;
 
     font-weight: 700;
     font-size: pxToRem(24px);
@@ -20,8 +19,9 @@
     color: $simpleWhite;
 
     padding: pxToRem(26px) pxToRem(57px);
-
-
+    transition: $bezierTransition;
+    
+//Circles in button, after hover/focus they moved
     :first-child {
         position: absolute;
         left: -10%;
@@ -30,6 +30,7 @@
         height: pxToRem(106px);
         border-radius: pxToRem(85px);
         background: rgba(255, 255, 255, 0.2);
+        transition:$bezierTransition;
 
     }
 
@@ -41,6 +42,7 @@
         height: pxToRem(56px);
         border-radius: pxToRem(85px);
         background: rgba(255, 255, 255, 0.32);
+        transition: $bezierTransition;
     }
 
     :nth-child(3) {
@@ -51,6 +53,28 @@
         height: pxToRem(106px);
         border-radius: pxToRem(85px);
         background: rgba(0, 0, 0, 0.08);
+        transition: $bezierTransition;
+
     }
 
+&:focus,&:hover{
+        background:$buttonPrimaryFocused;
+            box-shadow: $buttonShadowFocused;
+            transition: $bezierTransition;
+         
+            :first-child {
+                    left: 40%;
+                    bottom: 50%;
+                }
+            
+                :nth-child(2) {
+                    left: 35%;
+                    bottom: 50%;
+                }
+            
+                :nth-child(3) {
+                    right: 15%;
+                    top: 60%;
+                }
+}
 }

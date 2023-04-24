@@ -15,6 +15,7 @@
     
      nav,ul,.header-menu__authorization{
       display: flex;
+      align-items: center;
       justify-content: space-evenly;
       width: 80%;
       font-weight: 700;
@@ -23,17 +24,56 @@
         a{
           color: $simpleWhite;
         text-decoration: none;
-      text-transform: none;}
+      text-transform: none;
      }
+                 nav,ul a {
+                   position: relative;
+                   text-decoration: none;
+                 }
+        
+                 nav,ul a::after {
+                   content: "";
+                   display: block;
+                   height: 2px;
+                   width: 0;
+                   position: absolute;
+                   bottom: -2px;
+                   left: 0;
+                   background-color: $simpleWhite;
+              
+                   transition: width 0.3s ease-out;
+                 }
+        
+                 nav,ul a:hover::after,
+                 nav,ul a:focus::after {
+                   width: 100%;
+                 }
 .header-menu__authorization a{
   
   text-transform: uppercase;
+  font-family: $authorization;
+    font-style: normal;
+    font-weight: 500;
+    font-size: pxToRem(13.4237px);
+    line-height: pxToRem(16px);
+    text-align: center;
+    letter-spacing: pxToRem(1.25px);
+    
+  }
+  
+}
+a.checked {
+  padding: pxToRem(10px) pxToRem(16px);
+  border-radius: pxToRem(60px);
+  background: rgba(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #BB6DF3;
 }
  }
 
  .header-menu__navigation{
   width: 60%;
-  @media screen and (max-width:1179px) {
+  @media screen and (max-width:pxToRem(1179px)) {
     display: none;
     visibility: hidden;
   }
@@ -61,7 +101,7 @@
          background-color: $simpleWhite;
      }
 
-             @media screen and (min-width:1180px) {
+             @media screen and (min-width:pxToRem(1180px)) {
                display: none;
                visibility: hidden;}
  }
@@ -90,4 +130,7 @@
       }
   }
 
+  .activePage{
+    border-bottom: 2px solid $simpleWhite;
+  }
  

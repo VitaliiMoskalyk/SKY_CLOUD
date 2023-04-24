@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
   @@include('html/head.html',{ "title":"FAQ" })
+
   <body>
     @@include('html/header.html',{})
     <main>
       @@include('html/modal.html',{})
       <section class="title-section content-section">
         <div class="content-container">
-          @@include('html/title.html',{'heading':'faq'})
+          @@include('html/components/title.html',{'heading':'faq'})
         </div>
       </section>
 
@@ -82,7 +83,11 @@
         </div>
       </section>
 
-      @@include('html/statistic.html',{})
+      <section class="content-section">
+        <div class="content-container">
+          @@include('html/components/statistic.html',{})
+        </div>
+      </section>
     </main>
     @@include('html/footer.html',{})
     <script src="js/app.min.js"></script>

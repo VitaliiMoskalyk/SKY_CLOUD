@@ -1,0 +1,27 @@
+.title-section {
+    background: url(@img/BG-other.png) no-repeat top center/cover;
+    text-align: center;
+
+    @media screen and (min-width:pxToRem(1800px)) {
+        background: url(@img/BG-other.png) no-repeat top center/100% 100%;
+    }
+
+    h1 {
+        padding: pxToRem(211px) 0 pxToRem(15px) 0;
+        font-family: $headingTitle;
+        font-weight: 900;
+        font-size: pxToRem(72px);
+        line-height: pxToRem(70px);
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+        hyphens: auto;
+    }
+
+    p {
+        font-family: $headindSecondary;
+        font-weight: 400;
+        font-size: pxToRem(24px);
+        line-height: pxToRem(36px);
+        letter-spacing: 0.38em;
+    }
+}

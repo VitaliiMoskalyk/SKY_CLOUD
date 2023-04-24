@@ -1,0 +1,25 @@
+.simple-button {
+    display: block;
+
+    background: $buttonPrimary;
+    border-radius: pxToRem(62px);
+    width: fit-content;
+    margin: 0 auto;
+    padding: pxToRem(15px) pxToRem(40px);
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size: pxToRem(24px);
+    line-height: pxToRem(27px);
+
+    color: $simpleWhite;
+    transition: $bezierTransition;
+
+    &:hover,
+    &:focus {
+        background: $buttonPrimaryFocused;
+        box-shadow: $buttonShadowFocused;
+        transition: $bezierTransition;
+    }
+
+}

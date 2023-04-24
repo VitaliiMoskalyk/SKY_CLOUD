@@ -13,7 +13,7 @@ footer  {
             max-width: pxToRem(422px);
         }
 
-        @media screen and (max-width:1179px) {
+        @media screen and (max-width:pxToRem(1179px)) {
             padding-top: pxToRem(250px);
              div:not(:last-of-type){
                 display: none;

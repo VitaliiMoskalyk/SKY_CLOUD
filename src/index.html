@@ -29,15 +29,14 @@
                 site. If you're using FireFox or Chrome, you can simply drag &
                 drop your files to begin uploading
               </p>
-              <a href="#" class="button-bubble" style="text-decoration: none"
-                ><span></span><span></span><span></span> Try SkyBox Now</a
-              >
+              @@include('html/components/bubbleBtn.html',
+              {"title":"Try SkyBox Now"})
             </div>
           </div>
         </div>
       </section>
 
-      <section class="pros-section content-section">
+      <section class="pros-section content-section fade-in-right">
         <div class="content-container">
           <ul class="pros-section__list" style="text-align: left">
             <li>
@@ -81,7 +80,7 @@
           </ul>
         </div>
       </section>
-      <section class="tarif-section content-section">
+      <section class="tarif-section content-section fade-in-right">
         <div class="content-container">
           <h2 lang="de" class="tarif-section__title">
             Become a PREMIUM MEMBER
@@ -90,7 +89,16 @@
             Premium Business <br />
             1 TB free space and 4 TB monthly transfer
           </p>
-          @@include('html/tarif.html',{}) @@include('html/statistic.html',{})
+          <ul class="tarif-section-card__list">
+            @@include('html/components/tarifCard.html',{'heading':'',"period":"90 days","price":"$49.99","advantage1":"1 Tb Free space","advantage2":"4 Tb Monthly space","advantage3":"100 Mbit Speed","advantage4":"3000 sessions"})
+            @@include('html/components/tarifCard.html',{'heading':'Most popular',"period":"90 days","price":"$49.99","advantage1":"1 Tb Free space","advantage2":"4 Tb Monthly space","advantage3":"100 Mbit Speed","advantage4":"3000 sessions"})
+            @@include('html/components/tarifCard.html',{'heading':'Most popular',"period":"90 days","price":"$49.99","advantage1":"1 Tb Free space","advantage2":"4 Tb Monthly space","advantage3":"100 Mbit Speed","advantage4":"3000 sessions"})
+          </ul>
+        </div>
+      </section>
+      <section class="content-section">
+        <div class="content-container">
+          @@include('html/components/statistic.html',{})
         </div>
       </section>
     </main>

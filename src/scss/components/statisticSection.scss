@@ -1,12 +1,11 @@
-.statistic-section {
+.statistic-block {
     margin: pxToRem(131.39px) 0;
     text-align: center;
-@media screen and (min-width:1180px) {
-    .content-container{
+
+    @media screen and (min-width:pxToRem(1180px)) {
         display: flex;
         justify-content: space-around;
         align-items: baseline;
-    }
 }
     span {
         display: block;
@@ -25,7 +24,7 @@
 
     div:not(:last-of-type) {
         margin-bottom: pxToRem(63px);
-        @media screen and (min-width:1180px) {
+        @media screen and (min-width:pxToRem(1180px)) {
             margin-bottom: 0;
         }
     }

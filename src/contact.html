@@ -7,7 +7,7 @@
       @@include('html/modal.html',{})
       <section class="title-section content-section">
         <div class="content-container">
-          @@include('html/title.html',{'heading':'contact'})
+          @@include('html/components/title.html',{'heading':'contact'})
         </div>
       </section>
 
@@ -50,7 +50,7 @@
                 >
                 <input
                   type="submit"
-                  class="tarif-section-card__button"
+                  class="simple-button"
                   value="Subscribe"
                   style="border: none"
                 />
@@ -59,7 +59,11 @@
           </div>
         </div>
       </section>
-      @@include('html/statistic.html',{})
+      <section class="content-section">
+        <div class="content-container">
+          @@include('html/components/statistic.html',{})
+        </div>
+      </section>
     </main>
     @@include('html/footer.html',{})
     <script src="js/app.min.js"></script>

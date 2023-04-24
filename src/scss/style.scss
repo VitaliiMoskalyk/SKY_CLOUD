@@ -3,7 +3,7 @@
 @import './_variables.scss';
 @import './resetStyles/_normolize.scss';
 @import './resetStyles/_resetCss.scss';
-
+@import './helpers/_pxToRem';
 
 html {
     font-family: $paragrafFont;
@@ -11,17 +11,18 @@ html {
     font-weight: 400;
     color:$mainTextColor;
 }
+
 .content-container {
-    max-width: 1350px;
+    max-width: pxToRem(1350px);
     width: 100%;
     margin: 0 auto;
-    padding: 0 8px;
-   @media screen and (min-width:1180px) {
-    padding: 0 25px;
+    padding: 0 pxToRem(8px);
+    
+   @media screen and (min-width:pxToRem(1180px)) {
+    padding: 0 pxToRem(25px);
    }
 }
 
-@import './helpers/_pxToRem';
 @import './components/mainSection';
 @import "./components/bubbleButton";
 @import "./components/prosSection";
@@ -30,87 +31,24 @@ html {
 @import './components/footer';
 @import "./components/modal";
 @import './components/form';
+@import './components/simpleButton';
+@import './components/faqSection';
+@import './components/pageTitle';
 
-
-
-
-/////////////////////////
-.image-section div {
-   display: flex;
-    background: url(@img/BG.png) no-repeat top/cover;
-justify-content: end;
-}
-
-
-.title-section{
-    background: url(@img/BG-other.png) no-repeat top center/cover;
-        text-align: center;
-        @media screen and (min-width:1800px) {
-            background: url(@img/BG-other.png) no-repeat top center/100% 100%;
-        }
-    h1 {
-            padding: pxToRem(211px) 0 pxToRem(15px) 0;
-            font-family: $headingTitle;
-            font-weight: 900;
-            font-size: pxToRem(72px);
-            line-height: pxToRem(70px);
-            letter-spacing: 0.025em;
-            text-transform: uppercase;
-            hyphens: auto;
-        }
-                p {
-                    font-family: $headindSecondary;
-                    font-weight: 400;
-                    font-size: pxToRem(24px);
-                    line-height: pxToRem(36px);
-                    letter-spacing: 0.38em;
-                }
-} 
-
+//map object in Contact-section
 .contact-map_image{
     object-fit: cover;
-  padding-top: pxToRem(54px);
-  margin: 0 auto;
-
+    padding-top: pxToRem(54px);
+    margin: 0 auto;
 }
-/////////////////////////
 
-.faq-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:pxToRem(13px);
-    margin-top: pxToRem(59px);
-   
-   li {
-    width: 100%;
-
-    .faq-ask{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 100%;
-    font-weight: 700;
-        font-size: pxToRem(30px);
-        line-height: pxToRem(33px);
-        padding: pxToRem(28px);
-        border-radius: pxToRem(20px) pxToRem(20px) 0 0;
-        background: linear-gradient(90deg, #b2e3ff7c 0%, #dfbfff85 100%);
-
-   }
-   .ask-open {
-       background: linear-gradient(90deg, #B1E3FF 0%, #DFBEFF 100%);
-
-   }
-   .faq-answer{
-    display: none;
-    visibility: hidden;
-    margin-top: pxToRem(31px);
-   }
-   .answer-open{
-    display: block;
-        visibility: visible;
-   }
+//Blocks appears in smoothy when class added
+.fade-in-right {
+    opacity: 0;
+    transition: opacity 1s ease, transform 0.6s ease;
 }
- 
+.fade-in-right.visible {
+    opacity: 1;
+    transition: opacity 1s ease, transform 0.6s ease;
 }
+
